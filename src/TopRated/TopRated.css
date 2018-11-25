@@ -1,0 +1,82 @@
+.top_rated_movies {
+    display: none;
+}
+
+@media(min-width: 768px) {
+.top_rated_movies {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+
+.top_rated_images {
+    width: 80px;
+    height: 120px;
+}
+
+.title_top_rated {
+    width: 50px;
+    font-size: 11px;
+    font-style: italic;
+    color: gainsboro;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.title_top_popularity {
+    margin-top: 84px;
+    align-self: flex-end;
+    align-self: center;
+    font-size: 14px;
+    color: cornsilk;
+    font-style: italic;
+}
+
+.fa-star-half-alt {
+    font-size: 16px;
+    position: absolute;
+    top: 63%;
+    right: 19%;
+    color: yellowgreen;
+  }
+}
+
+@media(min-width: 1280px) {
+    .top_rated_movies {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+    }
+    
+    .top_rated_images {
+        width: 100px;
+        height: 150px;
+    }
+    
+    .title_top_rated {
+        width: 72px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-style: italic;
+        color: gainsboro;
+    }
+
+    .title_top_popularity {
+        margin-top: 100px;
+        align-self: flex-end;
+        align-self: center;
+        font-size: 16px;
+        color: cornsilk;
+        font-style: italic;
+    }
+    
+    .fa-star-half-alt {
+        font-size: 18px;
+        position: absolute;
+        top: 63%;
+        right: 19%;
+        color: yellowgreen;
+    }
+}

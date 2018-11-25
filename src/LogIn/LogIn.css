@@ -1,0 +1,23 @@
+.input_email, .input_password {
+    text-indent: 5px;
+    font-style: italic;
+    padding: 5px;
+    margin: 10px;
+}
+
+.input_submit {
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 160px;
+    padding: 5px 10px;
+    border: 2px solid rgb(91, 117, 91);
+    border-radius: 10%;
+    box-shadow: 0 0 4px 0 indianred;
+    background-color: darkseagreen;
+}
+
+.input_submit:hover {
+    color: floralwhite;
+    box-shadow: 0 0 10px 0 indianred;
+}

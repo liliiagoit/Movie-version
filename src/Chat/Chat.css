@@ -1,0 +1,111 @@
+.hideChat {
+    display: none;
+}
+
+.showChat{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: #4c4145;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.fa-times {
+    position: absolute;
+    top: 2%;
+    right: -2%;
+    color: #DA4D83;
+    cursor: pointer;
+}
+
+.fa-times:hover {
+    color: #ffffff;
+}
+
+.registation_button {
+    margin-left: 145px;
+}
+
+.my_avatar_photo{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #40373a;
+    border: 3px solid #21447A;
+    border-radius: 5%; 
+}
+
+.my_user_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.my_ava_span{
+    margin-right: 10px; 
+}
+
+.last_comments {
+    font-family: 'Fahkwang', sans-serif; 
+    font-size: 13px;
+}
+
+.btn_logIn, .btn_registration {
+    background-image: linear-gradient(to right top, #518282, #2da18d, #29bd81, #61d75e, #a8eb12);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: auto;
+    transition: 2s;
+    border: 2px solid cornflowerblue;
+}
+
+.btn_logIn:hover, .btn_registration:hover {
+    color: #ffffff;
+    background-color: darkslategrey;
+    font-style: italic;
+}
+
+@media(min-width: 768px) {
+    .showChat {
+        position: static;
+        width: 20%;
+    }
+
+    .hideChat{
+        display: block;
+        width: 20%;
+        overflow-y: scroll;
+        height: calc(100vh + 10px);
+        padding: 10px; 
+    }
+
+    .fa-times {
+        display: none;
+    }
+} 
+
+@media(min-width: 1280px) {
+    .showChat {
+        position: static;
+        width: 20%;
+        background-color: #4c4145;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .hideChat{
+        position: static;
+        width: 20%;
+        background-color: #4c4145;
+        box-sizing: border-box;
+        padding: 20px;
+        overflow-y: scroll;
+        height: calc(100vh + 10px);
+    }
+}

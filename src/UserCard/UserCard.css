@@ -1,0 +1,84 @@
+.user_image_avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.user_span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.user_message{
+    width: 80%;
+    border: 1px solid  #cc99ff;
+    margin: 0;
+    background-color: #8080ff;
+    border-radius: 5%;
+    font-size: 12px;
+    padding: 5px;
+    color: white;
+}
+
+.fb_link{
+    font-size: 11px;
+    margin-left: 10px;
+    font-style: italic;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.chat_div{
+    margin-bottom: 30px;
+}
+
+@media(min-width: 768px) {
+    .user_message{
+        width: 130px;
+        border: 1px solid  #cc99ff;
+        margin: 0;
+        background-color: #8080ff;
+        border-radius: 5%;
+        font-size: 14px;
+        padding: 10px;
+        color: white;
+    }
+
+    .fb_link{
+        font-size: 14px;
+        margin-left: 10px;
+        font-style: italic;
+        cursor: pointer;
+        color: blueviolet;
+    }
+    
+    .chat_div{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(min-width: 1280px){
+.user_message{
+    width: 180px;
+    border: 1px solid  #cc99ff;
+    margin: 0;
+    background-color: #8080ff;
+    border-radius: 5%;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+
+.fb_link{
+    font-size: 14px;
+    margin-left: 10px;
+    font-style: italic;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.chat_div {
+    margin-bottom: 30px;
+}
+}

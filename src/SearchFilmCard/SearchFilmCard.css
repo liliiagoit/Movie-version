@@ -1,0 +1,31 @@
+.list_img_film {
+    list-style: none;
+    display: inline-block;
+} 
+ 
+.title_search_movie {
+     font-size: 20px;
+     color: darkturquoise;
+     font-style: italic;
+     text-align: center;
+     margin: 7px 0 30px 0;
+}
+
+ @media(min-width: 768px) {
+    .title_search_movie {
+        font-size: 15px;
+    }
+ }
+
+ @media(min-width: 1280px) {
+    .search_img {
+        margin: 15px;
+        width: 200px;
+        height: 300px;
+ } 
+
+ .title_search_movie {
+    font-size: 15px;
+    width: 200px;
+    }
+ }
